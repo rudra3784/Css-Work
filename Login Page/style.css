@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, Arial;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #0a2f36);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  max-width: 380px;
+  margin: auto;
+  background: #0f1f21;
+  padding: 28px;
+  border-radius: 18px;
+  border: 1px solid #184b4e;
+  box-shadow: 0 0 25px rgba(0, 206, 209, 0.15);
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #00ced1;
+}
+
+.input-box {
+  margin-bottom: 14px;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 6px;
+  color: #9bd6d6;
+  font-size: 14px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #112a2c;
+  color: #e8ffff;
+}
+
+.input-box input:focus {
+  outline: 2px solid #00ced1;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background: #00ced1;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: 0.25s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 18px #00ced1;
+  transform: translateY(-1px);
+}
+
+.forgot,
+.signup {
+  text-align: center;
+  margin-top: 10px;
+  color: #b8e8e8;
+  font-size: 14px;
+}
+
+a {
+  color: #00ced1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
